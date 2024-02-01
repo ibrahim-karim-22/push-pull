@@ -1,0 +1,15 @@
+{
+  "name": "push-pull-test",
+  "version": "1.0.0",
+  "description": "practicing push and pull",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
