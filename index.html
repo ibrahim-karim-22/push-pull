@@ -15,10 +15,18 @@
 </head>
 <body>
 
+ <h1>Hello World!</h1>
  <button id="kristyBtn" class="btn btn-warning btn-lg me-5 text-dark">Button!</button>
+ <button onclick = "testTimer()">Start Timer</button>
 
  <script>
-	document.querySelector("#").addEventListener('click', '')
+	document.querySelector("#").addEventListener('click', '');
+    function testTimer() {
+        setTimeout(setAlert, 2000);
+    }
+    function setAlert() {
+        alert("This message should appear after 2 seconds.")
+    }
  </script>
 
  <script src="js/.js"></script>
